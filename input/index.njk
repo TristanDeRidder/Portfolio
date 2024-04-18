@@ -1,0 +1,91 @@
+---
+page_title: "Pulse Web Development"
+---
+{% extends "block.njk" %}
+
+{% import "components/images.njk" as i %}
+{% import "components/card.njk" as c %}
+
+{% block header %}
+    <header>
+        <h1>Embark on a voyage through my <strong>digital</strong> realm.</h1>
+        <span></span>
+        <span></span>
+        <span></span>
+    </header>
+{% endblock header %}
+
+{% block about %}
+    <h2>About</h2>
+    <div>
+        <p>
+            Take a look into my realm and witness the passion of my coding and design projects come to life, or rather, to pixels. My name is Tristan, a 19-year-old programming student at Artevelde University of Applied Sciences in Ghent.
+        </p>
+        <p>
+            Within my portfolio, you’ll discover a diverse array of projects, including websites created for school assignments and businesses, as well as photography and more.
+        </p>
+        <p>
+            Through these projects, I aim to showcase my skills and ultimately secure a job as a full-stack developer. This would enable me to engage in both aspects of development that I enjoy, front-end and back-end.
+        </p>
+        <p>
+            Now, let’s delve into it.
+        </p>
+    </div>
+    {{i.image("portfolio_image.png")}}
+
+{% endblock about %}
+
+{% block work %}
+    <h2>My Work</h2>
+    {{i.image("bug.jpg")}}
+    {{i.image("photography-1.jpg")}}
+    {{i.image("photography-2.jpg")}}
+    {{i.image("3D-2.jpg")}}
+
+{% endblock work %}
+
+{% block services %}
+    <h2>Services</h2>
+    <div class="service__text">
+        <h2>{{service_title}}</h2>
+        <div class="service">
+            {% for service in collections.services %}
+                <li class="service__border">
+                    {{c.card(service.data.class, service.data.main_title, service.data.strong, service.data.text)}}
+                </li>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock services %}
+
+{% block skills %}
+    <h2>Skills</h2>
+    <div>
+        <div>
+            {{i.image("html-icon.svg")}}
+        </div>
+        <div>
+            {{i.image("css-icon.svg")}}
+        </div>
+        <div>
+            {{i.image("javascript-icon.svg")}}
+        </div>
+        <div>
+            {{i.image("php-icon.svg")}}
+        </div>
+        <div>
+            {{i.image("database-icon.svg")}}
+        </div>
+        <div>
+            {{i.image("photoshop-icon.svg")}}
+        </div>
+        <div>
+            {{i.image("illustrator-icon.svg")}}
+        </div>
+        <div>
+            {{i.image("blender-icon.svg")}}
+        </div>
+    </div>
+
+{% endblock skills %}
