@@ -1,0 +1,71 @@
+---
+page_title: "Projects"
+---
+{% extends "grid.njk" %}
+
+{% import "components/images.njk" as i %}
+
+{% block header %}
+    <h1>My Work</h1>
+    <ul>
+        <li>Projects</li>
+        <li>Concepts</li>
+        <li>3D-Builds</li>
+        <li>Photography</li>
+    </ul>
+{% endblock header %}
+
+{% block work %}
+    <div>
+        <h2>Projects</h2>
+        <div>
+            {{i.image("school-of-talent-1.jpg")}}
+            {{i.image("pulse.jpg")}}
+            {{i.image("waves.jpg")}}
+            {{i.image("Rock-Wechter.jpg")}}
+            {{i.image("database.jpg")}}
+            {{i.image("school-of-talent-2.jpg")}}
+        </div>
+    </div>
+    
+    <div>
+        <h2>Concepts</h2>
+        <div>
+            {{i.image("museum.jpg")}}
+            {{i.image("ui.jpg")}}
+            {{i.image("bug.jpg")}}
+            {{i.image("gymflow.jpg")}}
+        </div>
+    </div>
+    
+    <div>
+        <h2>3D-Builds</h2>
+        <div>
+            {{i.image("3D-1.jpg")}}
+            {{i.image("3D-2.jpg")}}
+            {{i.image("3D-3.jpg")}}
+            {{i.image("3D-4.jpg")}}
+        </div>
+    </div>
+    
+    <div>
+        <h2>Photography</h2>
+        <div>
+            {{i.image("photography-1.jpg")}}
+            <div>
+            {{i.image("photography-2.jpg")}}
+            {{i.image("photography-3.jpg")}}
+            </div>
+            <div>
+            {{i.image("photography-4.jpg")}}
+            {{i.image("photography-5.jpg")}}
+            </div>
+            {{i.image("photography-6.jpg")}}
+            {{i.image("photography-7.jpg")}}
+            {{i.image("photography-8.jpg")}}
+            {{i.image("photography-9.jpg")}}
+            {{i.image("photography-10.jpg")}}
+        </div>
+    </div>
+
+{% endblock work %}

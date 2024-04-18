@@ -1,1 +1,17 @@
 {% extends "base.njk" %}
+
+{% block body %}
+<main>
+    <article class="hero">
+        {% block header %}
+            
+        {% endblock header %}
+    </article>
+
+    <article class="work">
+        {% block work %}
+            
+        {% endblock work %}
+    </article>
+</main>
+{% endblock body %}
