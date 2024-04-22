@@ -1,0 +1,135 @@
+/* ================== Variables ================== */
+:root  {
+    --bg: #EFE5DE;
+    --secondary: #202020;
+}
+
+/* ================== Globals ================== */
+
+body {
+    background-color: var(--bg);
+    color: var(--secondary);
+    font-family: 'Roboto', sans-serif;
+    width: 80vw;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 0;
+}
+
+.hidden{
+    display: none;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+/* ================== Header ================== */
+.hero header{
+    position: relative;
+    height: 100vh;
+}
+
+.hero header .h1{
+    position: relative;
+    padding: 10rem 0;
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hero header .h1_sub{
+    position: relative;
+    padding: 0 10rem;
+    padding-left: 20rem;
+    padding-right: 0;
+    text-align: center;
+    font-size: 2rem;
+    z-index: 1;;
+}
+
+.hero header .h1_sub strong{
+    color: var(--bg);
+    font-weight: 400;
+    z-index: 1;
+}
+
+.hero header span {
+    position: absolute;
+    background-color: var(--secondary);
+    border-radius: 50%;
+}
+
+.hero header .hero__span1 {
+    top: 20%;
+    right: 15%;
+    padding: 2rem;
+}
+
+.hero header .hero__span2 {
+    top: 23%;
+    right: 28.5%;
+    padding: 3.5rem;
+}
+
+.hero header .hero__span3 {
+    top: 35%;
+    right: 15%;
+    padding: 3rem;
+}
+
+/* ================== About ================== */
+.about{
+    position: relative;
+}
+.about__content{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+
+.about__content div{
+    width: 50vw;
+    z-index: 1;
+}
+
+.about__content div p{
+    margin-bottom: 2rem;
+}
+
+.about__content div p strong{
+    color: var(--bg);
+    font-weight: 400;
+    z-index: 1;
+}
+
+.about__content img{
+    z-index: 1;
+}
+
+.about span{
+    position: absolute;
+    background-color: var(--secondary);
+    padding: 15rem;
+    border-radius: 50%;
+}
+
+.about .about__span1{
+    top: 5%;
+    left: -20%;
+}
+
+.about .about__span2{
+    top: 15%;
+    right: -20%;
+}
+
+/* ================== Work ================== */

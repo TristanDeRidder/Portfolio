@@ -1,0 +1,18 @@
+{% extends "base.njk" %}
+
+{% block body %}
+    <main>
+    <article class="hero">
+        {% block header %}
+            <img class="head_image" src="/assets/images/{{ image }}" alt="{{image}}">
+            {{title}}
+            {{subtitle}}
+        {% endblock header %}
+    </article>
+
+        {% block info %}
+            {{content | safe}}
+        {% endblock info %}
+    </main>
+    
+{% endblock body %}
