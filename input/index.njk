@@ -42,22 +42,24 @@ page_title: "Tristan De Ridder"
 {% endblock about %}
 
 {% block work %}
-    <h2>My Work</h2>
+    <h2>Work</h2>
     <div>
-    {{i.image("bug.jpg")}}
-    <a href="">Demon Hunter / Storytelling / Concept</a>
+        {{i.image("bug.jpg")}}
+        <a href="">Demon Hunter / Storytelling / Concept</a>
+    </div>
+    <div class="work__align">
+        <div>
+            {{i.image("photography-1.jpg")}}
+            <a href="">Photography</a>
+        </div>
+        <div>
+            {{i.image("photography-2.jpg")}}
+            <a href="">Photography</a>
+        </div>
     </div>
     <div>
-    {{i.image("photography-1.jpg")}}
-    <a href="">Photography</a>
-    </div>
-    <div>
-    {{i.image("photography-2.jpg")}}
-    <a href="">Photography</a>
-    </div>
-    <div>
-    {{i.image("3D-2.jpg")}}
-    <a href="">3D-World</a>
+        {{i.image("3D-2.jpg")}}
+        <a href="">3D-World</a>
     </div>
     <a href="">More projects</a>
 
@@ -80,7 +82,7 @@ page_title: "Tristan De Ridder"
 
 {% block skills %}
     <h2>Skills</h2>
-    <div>
+    <div class="skills__listing">
         <div>
             {{i.image("html-icon.svg")}}
         </div>
