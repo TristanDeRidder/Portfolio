@@ -1,5 +1,6 @@
 ---
 page_title: "Tristan De Ridder"
+body__class: "home"
 ---
 {% extends "block.njk" %}
 
@@ -18,7 +19,7 @@ page_title: "Tristan De Ridder"
 {% endblock header %}
 
 {% block about %}
-    <h2>About</h2>
+    <h2 id="about">About</h2>
     <div class="about__content">
         <div>
             <p>
@@ -42,7 +43,7 @@ page_title: "Tristan De Ridder"
 {% endblock about %}
 
 {% block work %}
-    <h2>Work</h2>
+    <h2 id="work">Work</h2>
     <div>
         {{i.image("bug.jpg")}}
         <a href="">Demon Hunter / Storytelling / Concept</a>
@@ -61,12 +62,12 @@ page_title: "Tristan De Ridder"
         {{i.image("3D-2.jpg")}}
         <a href="">3D-World</a>
     </div>
-    <a href="">More projects</a>
+    <a href="./projects">More projects</a>
 
 {% endblock work %}
 
 {% block services %}
-    <h2>Services</h2>
+    <h2 id="services">Services</h2>
     <div class="service__text">
         <h2>{{service_title}}</h2>
         <div class="service">
@@ -81,31 +82,31 @@ page_title: "Tristan De Ridder"
 {% endblock services %}
 
 {% block skills %}
-    <h2>Skills</h2>
+    <h2 id="skills">Skills</h2>
     <div class="skills__listing">
         <div>
-            {{i.image("html-icon.svg")}}
+            {{i.image("svg/html-icon.svg")}}
         </div>
         <div>
-            {{i.image("css-icon.svg")}}
+            {{i.image("svg/css-icon.svg")}}
         </div>
         <div>
-            {{i.image("javascript-icon.svg")}}
+            {{i.image("svg/javascript-icon.svg")}}
         </div>
         <div>
-            {{i.image("php-icon.svg")}}
+            {{i.image("svg/php-icon.svg")}}
         </div>
         <div>
-            {{i.image("database-icon.svg")}}
+            {{i.image("svg/database-icon.svg")}}
         </div>
         <div>
-            {{i.image("photoshop-icon.svg")}}
+            {{i.image("svg/photoshop-icon.svg")}}
         </div>
         <div>
-            {{i.image("illustrator-icon.svg")}}
+            {{i.image("svg/illustrator-icon.svg")}}
         </div>
         <div>
-            {{i.image("blender-icon.svg")}}
+            {{i.image("svg/blender-icon.svg")}}
         </div>
     </div>
 
