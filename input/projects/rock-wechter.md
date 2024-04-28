@@ -1,11 +1,26 @@
 ---
 layout: detail.njk
-page_title: "Tristan De Ridder | Lost & Found Museum"
-title: "Lost & Found Museum"
-subtitle: concept
-image: museum.jpg
+page_title: "Tristan De Ridder | Rock Wechter"
+title: "Rock Wechter"
+subtitle: Project
+image: Rock-Wechter.jpg
 ---
 
-GymFlow is an app for gyms where people can see how busy their gym is. This is all build up with live data shared from partners. If people think their gym is too busy, they get alternatives based on their prefered radius.
+## The Rock Wechter
 
-Visit here: [Lost & Found museum prototype](https://www.figma.com/proto/ABpr3ANqPupL7sMBq8rD2k/Lost%26FoundMuseum?page-id=1%3A11&type=design&node-id=39-18&viewport=430%2C86%2C0.1&t=Luj0Yzmx1u2NmDQu-1&scaling=min-zoom&mode=design)
+**Project Overview:**
+This project is a simple replica of the Rock Wechter website, designed to showcase the lineup of artists scheduled to perform at the festival. It features a countdown timer at the top to build anticipation for the event, followed by a lineup section where users can view all the artists set to rock the stage.
+
+**Project Scope:**
+
+**Countdown Timer:** 
+Positioned prominently atop the page, a pulsating countdown timer serves as a beacon of anticipation, drawing users into the rhythmic fervor building up to the event.
+Lineup Showcase: Below the countdown, a dedicated lineup section unfolds, inviting users to explore the stellar ensemble of artists set to ignite the stage with their musical prowess.
+
+**Technical Elements:**
+Driven by a blend of HTML, CSS, and JavaScript, the project seamlessly integrates functionality and aesthetics. From the countdown timer to the presentation of the artist lineup.
+
+**Disclaimer:**
+The Rock Wechter project is a creation intended for educational and portfolio demonstration purposes only.
+
+Visit here: [Github page](https://github.com/TristanDeRidder/Rock-Wechter)

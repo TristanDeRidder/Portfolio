@@ -1,11 +1,33 @@
 ---
 layout: detail.njk
-page_title: "Tristan De Ridder | Lost & Found Museum"
-title: "Lost & Found Museum"
-subtitle: concept
-image: museum.jpg
+page_title: "Tristan De Ridder | School of Talent"
+title: "School of Talent"
+subtitle: Project
+image: school-of-talent-2.jpg
 ---
 
-GymFlow is an app for gyms where people can see how busy their gym is. This is all build up with live data shared from partners. If people think their gym is too busy, they get alternatives based on their prefered radius.
+## The School of Talent Project 
 
-Visit here: [Lost & Found museum prototype](https://www.figma.com/proto/ABpr3ANqPupL7sMBq8rD2k/Lost%26FoundMuseum?page-id=1%3A11&type=design&node-id=39-18&viewport=430%2C86%2C0.1&t=Luj0Yzmx1u2NmDQu-1&scaling=min-zoom&mode=design)
+**Project Overview:**
+At "The School of Talent," we conceptualized a haven where individuals grappling to be a magician could find solace and guidance. My initiative centered around crafting a curriculum tailored to the best practices for these individuals.
+
+**Website Structure:**
+The website was meticulously structured across multiple pages to ensure a seamless user experience:
+- **Home**
+- **Curriculum** 
+- **About**
+- **Enroll**
+  - **Test**
+  - **Welcome**
+  - **Form**
+- **Error**
+
+**Impact and Vision:**
+Through "The School of Talent" project, I aimed to not only showcase technical proficiency but also to underscore the power of creativity and inclusivity in educational endeavors. By addressing the unique needs of macigians to be, I sought to foster a culture of culinary exploration and empower individuals to embrace a diverse array of flavors and ingredients.
+
+
+**Disclaimer:**
+The School of Talent project is a fictional creation intended for educational and portfolio demonstration purposes only.
+
+
+Visit here: [School of talent](https://tristanderidder.be/int2/mysticalenclave/)

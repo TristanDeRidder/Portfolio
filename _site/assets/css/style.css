@@ -504,9 +504,12 @@ footer .contact{
   text-align: center;
 }
 
-.info p {
+.info {
   width: 60vw;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .info a{
