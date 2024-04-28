@@ -476,23 +476,25 @@ footer .contact{
   gap: 2rem;
 }
 
-.hero{
+.detail .hero{ 
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  margin: 0;
 }
 
 .head_image{
   width: 100%;
-  height: 50vh;
+  height: 75vh;
   object-fit: cover;
   object-position: center top;
 }
 
-.detail .hero p{ 
+.detail .hero .details__title{ 
   position: absolute;
-  height: 45vh;
+  height: 50vh;
   width: 90%;
   color: var(--bg);
   display: flex;
@@ -502,6 +504,16 @@ footer .contact{
   background-color: var(--secondary-opacity);
   border-radius: 5rem;
   text-align: center;
+}
+
+.detail .hero .details__title h1{ 
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.detail .hero .details__title h2{ 
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 .info {

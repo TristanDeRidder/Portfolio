@@ -9,10 +9,15 @@ body__class: "detail"
     <article class="hero">
         {% block header %}
             <img class="head_image" src="/assets/images/{{ image }}" alt="{{image}}">
-            <p>
-                {{title}}<br>
-                {{subtitle}}
-            </p>
+            <div class="details__title">
+                <h1>
+                    {{title}}
+                </h1>
+                <h2>
+                    {{subtitle}}
+                </h2>
+            </div>
+            
         {% endblock header %}
     </article>
 
