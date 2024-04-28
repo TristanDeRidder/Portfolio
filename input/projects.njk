@@ -1,6 +1,6 @@
 ---
 page_title: "Projects"
-body__class: "project"
+body__class: "projects"
 ---
 {% extends "grid.njk" %}
 
@@ -9,52 +9,60 @@ body__class: "project"
 {% block header %}
     <h1>My Work</h1>
     <ul>
-        <li>Projects</li>
-        <li>Concepts</li>
-        <li>3D-Builds</li>
-        <li>Photography</li>
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+        <li>
+            <a href="#concept">Concepts</a>
+        </li>
+        <li>
+            <a href="#d__build">3D-Builds</a>
+        </li>
+        <li>
+            <a href="#photography">Photography</a>
+        </li>
     </ul>
 {% endblock header %}
 
 {% block work %}
     <div class="finished">
-        <h2>Projects</h2>
+        <h2 id="projects">Projects</h2>
         <div class="project__grid container">
-            <div>
-                {{i.image("school-of-talent-1.jpg")}}
-                <a href="school-of-talent-1">School of Talent</a>
+            <div class="project__flex">
+                <div>
+                    {{i.image("school-of-talent-1.jpg")}}
+                    <a href="school-of-talent-1">School of Talent</a>
+                </div>
+                <div>
+                    {{i.image("pulse.jpg")}}
+                    <a href="pulse">Pulse Web Development</a>
+                </div>
+                <div>
+                    {{i.image("waves.jpg")}}
+                    <a href="waves">Waves</a>
+                </div>
             </div>
-            <div>
-                {{i.image("pulse.jpg")}}
-                <a href="pulse">Pulse Web Development</a>
-            </div>
-            <div>
-                {{i.image("waves.jpg")}}
-                <a href="waves">Waves</a>
-            </div>
-            <div>
-                {{i.image("Rock-Wechter.jpg")}}
-                <a href="rock-wechter">Rock Wechter</a>
-            </div>
-            <div>
-                {{i.image("database.jpg")}}
-                <a href="database">Car Database</a>
-            </div>
-            <div>
-                {{i.image("school-of-talent-2.jpg")}}
-                <a href="school-of-talent-2">School of Talent</a>
+            <div class="project__flex">
+                <div>
+                    {{i.image("Rock-Wechter.jpg")}}
+                    <a href="rock-wechter">Rock Wechter</a>
+                </div>
+                <div>
+                    {{i.image("database.jpg")}}
+                    <a href="database">Car Database</a>
+                </div>
+                <div>
+                    {{i.image("school-of-talent-2.jpg")}}
+                    <a href="school-of-talent-2">School of Talent</a>
+                </div>
             </div>
         </div>
     </div>
-    
+
     <div class="concept">
-        <h2>Concepts</h2>
+        <h2 id="concept">Concepts</h2>
         <div class="project__grid container">
-            <div>
-                {{i.image("museum.jpg")}}
-                <a href="museum">Lost & Found Museum</a>
-            </div>
-            <div class="concept__div">
+            <div class="project__flex">
                 <div class="project__collection">
                     {{i.image("ui.jpg")}}
                     <a href="ui">Celestial Getaway / Travel Agency</a>
@@ -64,27 +72,33 @@ body__class: "project"
                     <a href="bug">Demon Hunter / Storytelling</a>
                 </div>
             </div>
-            <div>
-                {{i.image("gymflow.jpg")}}
-                <a href="gymflow">GymFlow</a>
+            <div class="project__flex">
+                <div>
+                    {{i.image("museum.jpg")}}
+                    <a href="museum">Lost & Found Museum</a>
+                </div>
+                <div>
+                    {{i.image("gymflow.jpg")}}
+                    <a href="gymflow">GymFlow</a>
+                </div>
             </div>
         </div>
     </div>
-    
+
     <div class="3d">
-        <h2>3D-Builds</h2>
+        <h2 id="d__build">3D-Builds</h2>
         <div class="d__container container">
             <div class="project__flex">
                 {{i.image("3D-1.jpg")}}
                 {{i.image("3D-2.jpg")}}
             </div>
-                {{i.image("3D-3.jpg")}}
-                {{i.image("3D-4.jpg")}}
+            {{i.image("3D-3.jpg")}}
+            {{i.image("3D-4.jpg")}}
         </div>
     </div>
-    
+
     <div class="photo">
-        <h2>Photography</h2>
+        <h2 id="photography">Photography</h2>
         <div class="photography__container container">
             {{i.image("photography-1.jpg")}}
             <div class="project__flex">

@@ -2,7 +2,7 @@
 layout: detail.njk
 page_title: "Tristan De Ridder | database"
 title: "database"
-subtitle: "project"
+subtitle: "Project"
 image: database.jpg
 ---
 
