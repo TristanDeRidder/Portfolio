@@ -382,6 +382,7 @@ footer ul {
 
 footer img{
   filter: invert();
+  width: 2rem;
 }
 
 footer .contact{

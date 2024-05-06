@@ -3,7 +3,7 @@ layout: detail.njk
 page_title: "Tristan De Ridder | Waves"
 title: "Waves"
 subtitle: Project
-image: museum.jpg
+image: waves.jpg
 ---
 
 ## The Waves Project
