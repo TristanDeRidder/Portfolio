@@ -1,6 +1,6 @@
 ---
 layout: detail.njk
-page_title: "Tristan De Ridder | Storytellig"
+page_title: "Tristan De Ridder | Storytelling"
 title: "Storytellig"
 subtitle: Concept
 image: bug.jpg

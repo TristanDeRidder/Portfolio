@@ -6,7 +6,7 @@ subtitle: Concept
 image: ui.jpg
 ---
 
-## The UI PRoject
+## The UI Project
 
 **Concept Overview:**
 The "Celestial Getaway" project was conceived to revolutionize the conventional travel agency form, transforming it into an attention-grabbing experience. Our primary aim was to entice users to engage with the form, uncovering their travel personas to curate bespoke trips that resonate with their unique preferences and interests.
