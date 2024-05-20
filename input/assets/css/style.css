@@ -890,12 +890,78 @@ footer .contact {
 }
 
 /* ================== Detail Page ================== */
+body:has(.details) {
+  .nav-hamburger {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.6rem;
+    z-index: 3;
+    width: 2.5rem;
+  }
+
+  .nav-hamburger .long {
+    display: inline-block;
+    background-color: var(--bg);
+    width: 2rem;
+  }
+
+  .nav-hamburger .short {
+    display: inline-block;
+    background-color: var(--bg);
+    width: 1.8rem;
+    margin-left: 0.2rem;
+  }
+
+  .overlay .short {
+    width: 0rem;
+    margin-left: 0rem;
+  }
+
+  .open {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 2;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: var(--secondary);
+    background-size: 100%;
+
+    gap: 1rem;
+  }
+
+  .nav-overlay a {
+    color: var(--bg);
+  }
+
+  @media (min-width: 1000px) {
+    .nav-overlay {
+      display: none;
+    }
+    .nav-hamburger {
+      display: none;
+    }
+  }
+}
+
 .detail {
   background-color: var(--secondary);
   color: var(--bg);
 }
 
-.detail nav a {
+.detail .solo-list a {
   color: var(--bg);
 }
 
@@ -907,6 +973,7 @@ footer .contact {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  margin-top: 3rem;
 }
 
 .detail .hero {
