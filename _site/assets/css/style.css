@@ -25,12 +25,14 @@ nav a {
   text-decoration: none;
 }
 
+
 .hero,
 .about,
 .services,
 .skills {
   width: 80vw;
   margin: auto;
+  overflow-x: hidden;
 }
 
 /* ==================== Navigation Mobile ==================== */
